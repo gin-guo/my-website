@@ -5,6 +5,7 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+/* Navbar Section */
 .navbar {
     background: #131313;
     height: 80px;
@@ -29,6 +30,10 @@
 }
 
 #navbar__logo{
+    
+}
+/*
+#navbar__logo{
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
     background-size: 100%;
@@ -42,6 +47,7 @@
     text-decoration: none;
     font-size: 2rem;
 }
+*/
 
 .fa-gem {
     margin-right: 0.5rem;
@@ -195,6 +201,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
 
 /* Hero Section CSS*/
 .main{
