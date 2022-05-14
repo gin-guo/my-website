@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ginny Guo's Website</title>
+    <title>Ginny's Portfolio</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <meta name="author" content="Ginny Guo">
     <meta name="keywords" content="Ginny Guo, Ginny Guo UofT, Ginny Guo University of Toronto">
@@ -14,6 +14,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/2afd15dbe7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -67,8 +68,7 @@
         <div class="main__container">
             <div class="main__content">
                 <h1>Hi, I'm Ginny!</h1>
-                <h2></h2>
-                <p>I'm an Engineering Science student studying majoring in Machine Intelligence at the University of Toronto.</p>
+                <body onload="Type()">
             </div>
             <div class="main_img--container">
                 <img src="images/Ginny.jpg" alt="pic" id="main_img" />
@@ -82,14 +82,17 @@
         <div class="services__container">
             <div class="services__card">
                 <h2>Add some more text here</h2>
-                <p>Text asdlfkjas;dlfj</p>
+                <p>I'm an Engineering Science student majoring in Machine 
+                    Intelligence at the University of Toronto.</p>
                 <button>this is a button</button>
             </div>
+            <!--
             <div class="services__card">
                 <h2>Even more text</h2>
                 <p>Text asdlfkjas;dlfj</p>
                 <button>this is a button</button>
             </div>
+            -->
         </div>
     </div>
 
@@ -103,7 +106,7 @@
             </div>
         </div>
         <div class="social__media">
-            <div class="social__media--wrap">
+            <div class="social__media--wrapper">
                 <div class="social__icons">
                     <a href="/" class="social__icon--link" target="_blank">
                         <i class="fa-solid fa-envelope"></i>
@@ -120,5 +123,6 @@
     </div>
 
     <script src="app.js"></script>
+    <script src="type.js"></script>
 </body>
 </html>
