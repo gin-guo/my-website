@@ -1,5 +1,8 @@
+
 import React from "react";
 import Typewriter from "typewriter-effect";
+
+// document.getElementById("typing-animation").addEventListener("load", Type);
 
 function Type() {
   return (
@@ -21,3 +24,15 @@ function Type() {
 }
 
 export default Type;
+
+
+function loadImage() {
+  alert("Image is ready");
+}
+
+// import Typewriter from 'typewriter-effect/dist/core';
+
+// new Typewriter('#typewriter', {
+//   strings: ['Hello', 'World'],
+//   autoStart: true,
+// })
